@@ -1,0 +1,166 @@
+body{
+    margin:0;
+    padding:0;
+    background:#0d0d0d;
+    font-family:'Orbitron', sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    color:white;
+}
+
+.logo-container{
+    text-align:center;
+    width:90%;
+    max-width:1000px;
+}
+
+.logo{
+    width:250px;
+    margin-bottom:20px;
+    filter:drop-shadow(0 0 20px #00ff99);
+}
+
+.title{
+    color:#00ff99;
+    font-size:40px;
+    letter-spacing:4px;
+    text-shadow:0 0 15px #00ff99;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#bfbfbf;
+    font-size:16px;
+    margin-bottom:35px;
+    letter-spacing:1px;
+}
+
+/* BOTONES */
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-bottom:40px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    text-decoration:none;
+    color:white;
+    border:2px solid #00ff99;
+    padding:12px 25px;
+    border-radius:10px;
+    transition:0.3s;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#00ff99;
+    color:black;
+    box-shadow:0 0 20px #00ff99;
+    transform:scale(1.05);
+}
+
+/* PRODUCTOS */
+
+.productos{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:20px;
+}
+
+.card{
+    background:#111;
+    border:2px solid #00ff99;
+    border-radius:15px;
+    padding:20px;
+    box-shadow:0 0 15px rgba(0,255,153,0.3);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 25px rgba(0,255,153,0.8);
+}
+
+.card h2{
+    color:#00ff99;
+    margin-bottom:10px;
+    font-size:20px;
+}
+
+.card p{
+    color:#d9d9d9;
+    font-size:14px;
+    line-height:1.5;
+}
+/* CONTACTO */
+
+.contacto{
+    margin-top:40px;
+    text-align:center;
+}
+
+.contacto h2{
+    color:#00ff99;
+    font-size:24px;
+    margin-bottom:10px;
+    text-shadow:0 0 15px #00ff99;
+}
+
+.contacto p{
+    margin:0;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.contacto a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.contacto a:hover{
+    color:#00ff99;
+    text-shadow:0 0 15px #00ff99;
+}
+
+@media(max-width:600px){
+
+    .contacto h2{
+        font-size:20px;
+    }
+
+    .contacto p{
+        font-size:18px;
+    }
+
+}
+
+/* RESPONSIVE */
+
+@media(max-width:600px){
+
+    .title{
+        font-size:28px;
+    }
+
+    .logo{
+        width:180px;
+    }
+
+    .buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .btn{
+        width:80%;
+        text-align:center;
+    }
+
+}
