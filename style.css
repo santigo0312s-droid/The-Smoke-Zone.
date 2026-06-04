@@ -9,47 +9,7 @@ body{
     min-height:100vh;
     color:white;
 }
-.ubicacion-box{
-    background: rgba(255,255,255,0.08);
-    border: 2px solid #00e676;
-    border-radius: 20px;
-    padding: 25px;
-    text-align: center;
-    max-width: 450px;
-    margin: 20px auto;
-    box-shadow: 0 8px 25px rgba(0,230,118,0.3);
-}
 
-.ubicacion-box h3{
-    color: #00e676;
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-.ubicacion-box p{
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.btn-ubicacion{
-    display: inline-block;
-    background: linear-gradient(135deg, #00c853, #00e676);
-    color: white;
-    text-decoration: none;
-    padding: 15px 30px;
-    border-radius: 50px;
-    font-size: 18px;
-    font-weight: bold;
-    transition: 0.3s;
-    box-shadow: 0 5px 15px rgba(0,200,83,0.4);
-}
-
-.btn-ubicacion:hover{
-    transform: translateY(-4px);
-    box-shadow: 0 10px 25px rgba(0,200,83,0.6);
-}
 .logo-container{
     text-align:center;
     width:90%;
